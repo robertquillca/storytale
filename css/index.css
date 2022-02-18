@@ -13,7 +13,9 @@
   --theme-color-opacity-black: #f1f1f1;
   --theme-color-opacity-pink: #fee;
 }
-
+body {
+  font-family: whyte;
+}
 /* header section */
 .header {
   position: sticky;
@@ -138,6 +140,94 @@
   text-decoration: none;
   transition: all 0.5rem;
 }
+
+/* article section */
+* Main section */
+.main {
+  width: 100%;
+}
+
+/* profile section */
+.profile  {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.profile-container {
+  padding: 0 2rem;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile__info-title {
+  color: var(--code-color);
+  margin: 0;
+}
+
+.software-engineer {
+  font-weight: 300;
+}
+
+.social-network {
+  text-decoration: none;
+  color: var(--code-color);
+}
+
+.profile__info-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin: 0;
+}
+
+
+.profile__cover-image {
+  display: flex;
+  justify-content: center;
+}
+
+.profile__image-container {
+  display: flex;
+  max-width: 18rem;
+  border: 0.25rem solid var(--inverse-theme-color);
+  border-radius: 20%;
+  overflow: hidden;
+  transition: all .5s;
+}
+
+.profile__image-container:hover {
+  box-shadow: 0 0 0 .25rem var(--highlight-color-1);
+}
+
+.profile__image {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
