@@ -21,6 +21,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
+  background-color: var(--theme-color-white);
   box-shadow: 0 0 .25rem .2rem 0 var(--inverse-text-color);
 }
 
@@ -247,6 +248,35 @@ body {
   .header-nav__link {
     font-size: 1rem;
     color: var(--text-color);
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 1024px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;;
+    justify-content: center;
+  }
+
+  .profile__info {
+    flex: 1;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .profile__info-title {
+    font-size: 3.75rem;
+    line-height: 3rem;
+  }
+
+  .profile__info-description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 1.25rem;
   }
 
 
