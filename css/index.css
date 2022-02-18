@@ -1,3 +1,16 @@
+:root {
+  --theme-color-green: #30d158;
+  --theme-color-violet:#9130de;
+  --theme-color-blue: #2c3fee;
+  --main-text-color: #1c1c1e;
+  --inverse-text-color: #7c7c7c;
+
+  --theme-color-opacity-red: #ffefd0;
+  --theme-color-opacity-violet: #f3ecff;
+  --theme-color-opacity-green: #e0fff8;
+  --theme-color-opacity-black: #f1f1f1;
+  --theme-color-opacity-pink: #fee;
+}
 
 /* header section */
 .header {
