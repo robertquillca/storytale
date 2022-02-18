@@ -224,11 +224,11 @@ body {
 }
 
 .how__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 
-.how__projects {
+.how__works {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -236,41 +236,30 @@ body {
   gap: 2rem;
 }
 
-.how__project {
+.how__work {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  border-radius: 1.5rem;
   padding-bottom: 1rem;
   overflow: hidden;
   transition: all .5s;
-  box-shadow: 
-  0 0 0 var(--code-color),
-  0 .2rem 2rem #dddddd,
-  0 0 0 var(--code-color);
 }
 
-.how__project:hover {
-  box-shadow:
-    0 0 0 var(--code-color),
-    0 0 1rem #dddddd,
-    -.3rem .3rem 0rem var(--highlight-color-1);
+.how__work:hover {
   transform: scale(1.05);
 }
 
-.how__project-image-container {
+.how__work-container {
   display: flex;
   width: 100%;
   margin: 0; 
-  border-radius: .6rem;
-  overflow: hidden;
 }
 
-.how__project-image {
+.how__work-image {
   width: 100%;
 }
 
-.how__project-data {
+.how__work-data {
   display: flex;
   flex-direction: column;
   gap: .75rem;
@@ -278,14 +267,14 @@ body {
   padding: 0 1rem;
 }
 
-.how__project-data-title {
-  color: var(--code-color);
+.how__work-title {
+  color: var(--main-text-color);
   margin: 0;
   font-size: 1.3rem;
 }
 
 
-.how__project-data-about {
+.how__work-about {
   font-weight: 300;
   margin: 0;
 }
@@ -344,17 +333,42 @@ body {
   }
   .profile__info-title {
     font-size: 3.75rem;
-    line-height: 3rem;
+    font-weight: 800;
+    letter-spacing: -.15rem;
+    line-height: 4rem;
+    color: var(--main-text-color);
   }
 
   .profile__info-description {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0 4rem;
+    color: var(--inverse-text-color);
   }
 
+  .how-container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    max-width: 1024px;
+    margin: auto;
+  }
 
+  .how__works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
+  .how__work-about {
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+
+  .mood__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 
 }
