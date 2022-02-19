@@ -355,6 +355,67 @@ body {
   border-radius: 1rem;
 }
 
+/* mood-containers-color */
+.mood-1 {
+  background-color: var(--theme-color-opacity-red);
+}
+
+.mood-1:hover {
+  box-shadow: 
+    0 0 1rem var(--theme-color-opacity-red),
+    0 0 2rem var(--theme-color-opacity-red),
+    0 0 3rem var(--theme-color-opacity-red);
+  transform: scale(1.1);
+  transition: all .3s ease-in-out; 
+}
+
+.mood-2 {
+  background-color: var(--theme-color-opacity-green);
+}
+.mood-2:hover {
+  box-shadow: 
+    0 0 1rem var(--theme-color-opacity-green),
+    0 0 2rem var(--theme-color-opacity-green),
+    0 0 3rem var(--theme-color-opacity-green);
+  transform: scale(1.1);
+  transition: all .3s ease-in-out; 
+}
+
+.mood-3 {
+  background-color: var(--theme-color-opacity-violet);
+}
+.mood-3:hover {
+  box-shadow: 
+    0 0 1rem var(--theme-color-opacity-violet),
+    0 0 2rem var(--theme-color-opacity-violet),
+    0 0 3rem var(--theme-color-opacity-violet);
+  transform: scale(1.1);
+  transition: all .1s ease-in-out; 
+}
+
+.mood-4 {
+  background-color: var(--theme-color-opacity-black);
+}
+.mood-4:hover {
+  box-shadow: 
+    0 0 1rem var(--theme-color-opacity-black),
+    0 0 2rem var(--theme-color-opacity-black),
+    0 0 3rem var(--theme-color-opacity-black);
+  transform: scale(1.1);
+  transition: all .1s ease-in-out; 
+}
+.mood-5 {
+  background-color: var(--theme-color-opacity-pink);
+}
+.mood-5:hover {
+  box-shadow: 
+    0 0 1rem var(--theme-color-opacity-pink),
+    0 0 2rem var(--theme-color-opacity-pink),
+    0 0 3rem var(--theme-color-opacity-pink);
+  transform: scale(1.1);
+  transition: all .1s ease-in-out; 
+}
+
 .how__browse:hover {
   transform: scale(1.05);
 }
