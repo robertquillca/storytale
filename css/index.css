@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Whyte";
+  src: url("../font/Whyte-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --theme-color-white: #fff;
   --theme-color-green: #30d158;
