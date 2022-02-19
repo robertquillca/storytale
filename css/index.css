@@ -15,6 +15,7 @@
 }
 body {
   font-family: whyte;
+  margin: 0;
 }
 /* header section */
 .header {
@@ -325,8 +326,7 @@ body {
   margin: 0 auto;
 }
 
-.mood__title,
-.feature__title {
+.mood__title {
   font-size: 1.5rem;
   margin: 0;
   text-align: center;
@@ -337,8 +337,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-
+  gap: 1rem;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -503,6 +502,97 @@ body {
 
 }
 
+/* STORYTALE FEATURES */
+.features {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 0;
+  margin: 0;
+  text-align: center;
+ 
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  
+}
+
+.features__title {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.features__feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.features__feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0 auto;
+  padding: 45px 20px;
+  overflow: hidden;
+  transition: all .5s;
+  border-radius: 1.5rem;
+  background-color: var(--theme-color-opacity-green);
+}
+
+.features-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.features__features-image {
+  display: flex;
+  vertical-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0;
+}
+
+.features__feature-data {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.features__feature-title {
+  font-size: 1.8rem;
+  color: var(--main-text-color);
+  margin: 0;
+}
+
+.features__feature-description {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+
 
 
 
@@ -598,6 +688,11 @@ body {
     margin: auto;
   }
 
+  .mood__list {
+    gap: 2rem;
+  }
+
+  /* HOW TO BROWSE */
   .how__browse-image {
     max-width: 100%;
   }
@@ -607,11 +702,12 @@ body {
     font-size: 1.1rem;
   }
 
-  .mood__list,{
+  .mood__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
+  /* PRICE CONTAINER */
   .price__container {
     display: flex;
     flex-direction: column;
@@ -634,9 +730,17 @@ body {
   }
 
   /* STORYTALE FEATURES */
-  .features__list,{
+
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 60rem;
+  }
+
+  .features__feature-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
 }
