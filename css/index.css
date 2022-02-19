@@ -612,16 +612,60 @@ body {
 
 /* STORYTALE FOOTER SECTION */
 .footer {
-  text-align: center;
+  background-color: var(--theme-color-blue);
+  color: var(--theme-color-white);
+  padding: 1.4rem 0;
+  margin-top: 6rem;
 }
 
-.footer-container {
+.footer-nav {
   display: flex;
   flex-direction: column;
-
+  gap: .5rem;
+  padding: 0 2rem;
 }
 
+.footer-nav__link-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
 
+.footer-nav__link-item {
+  list-style: none;
+}
+
+.footer-nav__link {
+  display: flex;
+  width: 1.5rem;
+  transition: .25s all;
+}
+
+.footer-nav__link:hover {
+  filter: brightness(150%);
+  transform: scale(1.5);
+}
+
+.footer-nav__link-image {
+  width: 100%;
+}
+
+.footer-nav__credits {
+  text-align: center;
+  font-size: .8rem;
+  font-weight: 350;
+  margin: 0;
+  padding-top: .5rem;
+}
+
+.footer-nav__credits-author {
+  font-size: .8rem;
+  color: var(--highlight-color-2);
+  text-decoration: none;
+}
 
 
 
