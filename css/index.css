@@ -1,3 +1,11 @@
+/* font family imported from local */
+@font-face {
+  font-family: "Whyte";
+  src: url("../font/Whyte-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --theme-color-white: #fff;
   --theme-color-green: #30d158;
