@@ -771,13 +771,19 @@ body {
 
 
 .register {
-  background-color: var(--theme-color-opacity-violet);
+  margin-top: 5rem;
 }
 
 .register-container {
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
+
+
+
+
+
+
 
 
 
