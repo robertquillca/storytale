@@ -201,7 +201,6 @@ body {
 
 .form__search {
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin: 2rem 0 0;
   opacity: 3;
@@ -802,7 +801,7 @@ body {
     max-width: 1024px;
     width: 60%;
     margin: auto;
-    margin-top: 10%;;
+    margin-top: 7%;;
     justify-content: center;
   }
 
@@ -826,6 +825,16 @@ body {
     line-height: 2rem;
     margin: 0 4rem;
     color: var(--inverse-text-color);
+  }
+
+  .form {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .form__search-input {
+    height: 4.5rem;
+    width: 100%;
   }
 
   .how-container {
