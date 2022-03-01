@@ -770,7 +770,14 @@ body {
 }
 
 
+.register {
+  background-color: var(--theme-color-opacity-violet);
+}
 
+.register-container {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
 
 
 
@@ -801,7 +808,7 @@ body {
     max-width: 1024px;
     width: 60%;
     margin: auto;
-    margin-top: 7%;;
+    margin-top: 10%;;
     justify-content: center;
   }
 
