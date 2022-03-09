@@ -964,7 +964,7 @@ footer a {
   }
 
   .fourth {
-    left: 26%;
+    left: 22%;
     top: 340px;
   }
 
@@ -974,8 +974,8 @@ footer a {
   }
 
   .sixth {
-    left: 20%;
-    top: 390px;
+    left: 18%;
+    top: 410px;
   }
 
   .seventh {
@@ -1016,7 +1016,7 @@ footer a {
     flex-direction: column;
     font-size: 1.5rem;
     line-height: 2rem;
-    margin: 0 4rem;
+    margin: 0 3rem;
     color: var(--inverse-text-color);
   }
 
