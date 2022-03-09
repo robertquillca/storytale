@@ -165,6 +165,10 @@ body {
   padding: 0 2rem;
 }
 
+.profile-decoration {
+  display: none;
+}
+
 .profile__info {
   display: flex;
   flex-direction: column;
@@ -768,8 +772,16 @@ body {
   gap: 1rem;
 }
 
+.register-form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
 .register-item__button-container {
   width: 100%;
+  text-align: center;
 }
 
 .register-item__button {
