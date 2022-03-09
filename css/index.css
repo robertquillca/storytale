@@ -861,7 +861,6 @@ body {
 .register-item__form-container {
   margin-top: 2rem;
   width: 100%;
-  margin-top: 2rem;
   margin-bottom: 0;
 }
 
@@ -869,11 +868,16 @@ body {
   display: flex;
   font-family: 'whyte', sans-serif;
   font-size: 1.2rem;
-  border: 1px solid #a0a0a0;
+  border: 1.5px solid #a0a0a0;
   border-radius: .6rem;
   height: 3.2rem;
   padding: .5rem .5rem;
   width: 100%;
+}
+
+.register-item__form-input:focus-visible {
+  outline: none;
+  border: 1px solid #a0a0a0;
 }
 
 .--color {
@@ -1061,31 +1065,47 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
+  /* REGISTER SECTION */
+  .register {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
   .register-feature {
     display: flex;
-    flex: 1;
     flex-direction: row;
   }
-
+ 
+  .register-item {
+    width: 50%;
+  }
   .__modifier {
-    flex-direction: row;
     display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
   }
 
   .register-item__title {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     text-align: left;
     line-height: 2.6rem;
     margin: 0;
   }
 
   .__modifier-2 {
-    padding: 4rem;
+    padding: 1rem;
     padding-bottom: 0;
   }
 
+  .register-item__content {
+    padding: 3rem;
+  }
   .register-item__container {
     margin: 0;
+    width: 55%;
+  }
+
+  .register-item__img-container {
+    width: 50%;
   }
 
   .register-item__title {
@@ -1098,10 +1118,8 @@ body {
   }
 
   .register-item__button-info {
-    width: 20rem;
+    width: 100%;
   }
-
-
 
 
   .register-form__container {
@@ -1115,6 +1133,7 @@ body {
 
   .register-item__form-container {
     margin: 0;
+    width: 100%;
   }
 
   .register-item__button-container {
@@ -1122,6 +1141,6 @@ body {
   }
 
   .register-item__button {
-    width: 10rem;
+    width: 0 auto;
   }
 }
