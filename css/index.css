@@ -722,64 +722,6 @@ body {
   font-size: 1.1rem;
 }
 
-/* STORYTALE FOOTER SECTION */
-.footer {
-  background-color: var(--theme-color-blue);
-  color: var(--theme-color-white);
-  padding: 1.4rem 0;
-  margin-top: 6rem;
-}
-
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  padding: 0 2rem;
-}
-
-.footer-nav__link-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-nav__link-item {
-  list-style: none;
-}
-
-.footer-nav__link {
-  display: flex;
-  width: 1.5rem;
-  transition: .25s all;
-}
-
-.footer-nav__link:hover {
-  filter: brightness(150%);
-  transform: scale(1.5);
-}
-
-.footer-nav__link-image {
-  width: 100%;
-}
-
-.footer-nav__credits {
-  text-align: center;
-  font-size: .8rem;
-  font-weight: 350;
-  margin: 0;
-  padding-top: .5rem;
-}
-
-.footer-nav__credits-author {
-  font-size: .8rem;
-  color: var(--highlight-color-2);
-  text-decoration: none;
-}
-
-
 .register {
   margin-top: 5rem;
 }
@@ -885,6 +827,82 @@ body {
   background: var(--theme-color-green);
 }
 
+/* FOOTER SECTION */
+footer ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+}
+
+footer li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.footer-item__list p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: var(--inverse-text-color);
+}
+
+.footer-item__list a {
+  font-size: 1.2rem;
+  color: var(--main-text-color);
+}
+
+
+.footer {
+  margin: 0;
+  margin-top: 5rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 .5rem;
+
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-item__main-info {
+  padding-top: 1rem;
+  margin: 0 4rem;
+  line-height: 1.5rem;
+  color:var(--inverse-text-color);
+}
+
+
+.footer-credits {
+  padding-top: 3rem;
+}
+
+.footer-credits p {
+  line-height: 1.5rem;
+  margin: 0;
+  color: var(--inverse-text-color);
+}
+
+.footer-credits__social ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footer-credits__social a {
+  color: var(--inverse-text-color);
+}
 
 
 @media (min-width: 854px) {
