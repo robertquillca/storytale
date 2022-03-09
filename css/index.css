@@ -940,6 +940,17 @@ footer a {
     padding-top: 0;
   }
 
+/* DECORATION SECTION */
+  .profile-decoration {
+      -webkit-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+
+  .profile-docoration__items {
+    position: relative;
+  }
+
   .profile-container {
     align-items: center;
     padding: 0;
