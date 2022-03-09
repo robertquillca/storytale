@@ -942,13 +942,53 @@ footer a {
 
 /* DECORATION SECTION */
   .profile-decoration {
-      -webkit-flex: 0 0 100%;
-      flex: 0 0 100%;
-      max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .first {
+    left: 215px;
+    top: 145px;
+  }
+
+  .second {
+    right: 215px;
+    top: 145px;;
+  }
+
+  .third {
+    top: 150px;
+    right: 40%;
+  }
+
+  .fourth {
+    left: 26%;
+    top: 340px;
+  }
+
+  .fifth {
+    top: 400px;
+    right: 225px;
+  }
+
+  .sixth {
+    left: 20%;
+    top: 390px;
+  }
+
+  .seventh {
+    right: 16%;
+    top: 395px;
   }
 
   .profile-docoration__items {
     position: relative;
+  }
+
+  .decoration-position {
+   position: absolute;
   }
 
   .profile-container {
