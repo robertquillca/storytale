@@ -927,17 +927,23 @@ footer a {
     color: var(--text-color);
   }
 
-  .profile-container {
+  .main {
+    padding-top: 8rem;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .profile {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  .profile-container {
     align-items: center;
     padding: 0;
-    max-width: 1024px;
-    width: 60%;
-    margin: auto;
-    margin-top: 10%;
-    ;
-    justify-content: center;
+    margin: 0 8rem;
   }
 
   .profile__info {
